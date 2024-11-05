@@ -22,3 +22,25 @@ body{
 h1{
     background-color: rgb(175, 97, 51);
 }
+.cabecalho{
+    background-color: var(--caramelo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho{
+    background-color: var(--marrom-claro);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalho-img{
+    width: 10%;
+    margin: 2em;
+}
+.cabecalho-link{
+    text-decoration: none;
+    font-size: 2em;
+    color: var(--chocolate);
+    font-family: var(--fonte-titulo);
+}
